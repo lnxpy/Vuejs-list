@@ -8,12 +8,12 @@
 
     <link rel="stylesheet" href="./css/style.css">
 
-    <title>HTML Generator</title>
+    <title>Vuejs List Adder</title>
 </head>
 
 <body>
     <div id="app" class="container-fluid p-3">
-        <h3>List Adder <small><small>you have {{names.length}} name in your list</small></small></h3>
+        <h3>List Adder <small><small>you have {{names.length}} items in your list.</small></small></h3>
         <input type="text" v-model="current_name">
         <button class="btn btn-success" v-on:click="add()">Add</button>
         <button class="btn btn-danger" v-on:click="clear()">Clear</button><br><br>
